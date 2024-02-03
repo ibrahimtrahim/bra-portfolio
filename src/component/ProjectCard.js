@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     const {title, link, img } = props;
 
   return (
-    <div class="flex group relative overflow-hidden border-2 border-white/50 text-gray-700 bg-white m-2 rounded-xl w-60 h-60">
+    <div class="flex group relative overflow-hidden border-2 border-black/50 dark:border-white/50 text-gray-700 bg-white m-2 rounded-xl w-60 h-60">
           <Link to={link}>
             <div className='group-hover bg-black/70 z-40 w-full h-full absolute transition-all duration-300 cursor-pointer'></div>
             <img className='group-hover:scale-125 transition-all duration-500 cursor-pointer' 

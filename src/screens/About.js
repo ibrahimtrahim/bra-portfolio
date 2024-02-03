@@ -3,20 +3,20 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className='max-w-xl max-h-[560px] text-white bg-dark-primary lg:rounded-lg overflow-hidden py-10 px-10'>
-        <h2 className='font-semibold text-xl font-lekton text-white mb-4'>About Me</h2>
-        <p className='font-semibold text-base font-lekton text-txt-clr mb-2'>
+    <section className='max-w-xl max-h-[560px] bg-white dark:bg-dark-primary lg:rounded-lg overflow-hidden py-10 px-10'>
+        <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+        <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
         Hello! 👋 I’m Brahim Trahim.
         </p>
-        <p className='font-normal text-base font-lekton text-txt-clr mb-2'>
+        <p className='font-normal text-base font-lekton dark:text-txt-clr mb-2'>
         Frond-end developer from MA, AGADIR. I have rich experience in React js, 
         also I am good at Wordpress. I love to talk with you about our unique.
         </p>
-        <h2 className='font-semibold text-xl font-lekton text-white mb-4 mt-8 relative'>My Skills</h2>
+        <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 relative'>My Skills</h2>
         <div>
             <div>
                 <div>
-                    <h3 className='font-lekton font-semibold text-txt-clr mb-2'>Web Development</h3>
+                    <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Web Development</h3>
                     <div className='flex mb-3'>
                       <span className='mr-4'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 384 512">
@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <h3 className='font-lekton font-semibold text-txt-clr mb-2'>UI/UX Design</h3>
+                    <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>UI/UX Design</h3>
                     <div className='flex mb-3'>
                       <span className='mr-4'>
                       <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 384 512">
@@ -66,7 +66,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <h3 className='font-lekton font-semibold text-txt-clr mb-2'>Tools & Platforms</h3>
+                    <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Tools & Platforms</h3>
                     <div className='flex mb-3'>
                       <span className='mr-4'>
                       <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 512 512">

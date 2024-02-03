@@ -5,18 +5,18 @@ const Home = (props) => {
   const {title, link, img } = props;
 
   return (
-    <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-transparent lg:scrollbar-thumb-bg-slate-500/50 lg:scrollbar-rounded bg-dark-primary dark:bg-white lg:rounded-lg lg:overflow-y-auto lg:w-[37rem] lg:max-h-[35rem] py-10 px-10'>
-          <h2 className='font-semibold text-xl font-lekton  text-white dark:text-black mb-4'>About Me</h2>
-          <p className='font-semibold text-base font-lekton text-txt-clr mb-2'>
+    <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:w-[37rem] lg:max-h-[35rem] py-10 px-10'>
+          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+          <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
           Hello! 👋 I’m Brahim Trahim.
           </p>
-          <p className='font-normal text-base font-lekton text-txt-clr mb-2'>
+          <p className='font-normal text-base font-lekton dark:text-txt-clr mb-2'>
             Frond-end developer from MA, AGADIR. I have rich experience in React js, 
             also I am good at Wordpress. I love to talk with you about our unique.
           </p>
         <div>
-          <h2 className='font-semibold text-xl font-lekton text-white mb-8 mt-8 circle-before'>My Work</h2>
-          <div class="flex group relative overflow-hidden border-2 border-white/50 text-gray-700 bg-white m-2 mb-6 m-auto rounded-xl w-60 h-60">
+          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-8 mt-8 circle-before'>My Work</h2>
+          <div class="flex group relative overflow-hidden border-2 border-black/50 dark:border-white/50 text-gray-700 bg-white m-2 mb-6 m-auto rounded-xl w-60 h-60">
             <Link to={link}>
               <div className='group-hover bg-black/70 z-40 w-full h-full absolute transition-all duration-300 cursor-pointer'></div>
               <img className='group-hover:scale-125 transition-all duration-500 cursor-pointer' 
@@ -52,11 +52,11 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <h2 className='font-semibold text-xl font-lekton text-white mb-4 mt-8 circle-before'>Contact Me</h2>
-          <h3 className='font-lekton font-semibold text-txt-clr mb-2'>Email:</h3>
-          <p className='font-normal text-base font-lekton text-txt-clr mb-4'>trahimbrahim@gmail.com</p>
-          <h3 className='font-lekton font-semibold text-txt-clr mb-2'>Phone:</h3>
-          <p className='font-normal text-base font-lekton text-txt-clr mb-4'>+212 610 760 225</p>
+          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 circle-before'>Contact Me</h2>
+          <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Email:</h3>
+          <p className='font-normal text-base font-lekton dark:text-txt-clr mb-4'>trahimbrahim@gmail.com</p>
+          <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Phone:</h3>
+          <p className='font-normal text-base font-lekton dark:text-txt-clr mb-4'>+212 610 760 225</p>
           <div class="flex justify-center mt-4 md:mt-6">
             <a href="/Contact" class="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">Contact Me</a>
           </div>
