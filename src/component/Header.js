@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faHome, faBriefcase, faEnvelope, faSun } from '@fortawesome/free-solid-svg-icons';
+import Switcher from './Switcher';
 
 const Header = () => {
+
   return (
-    <header className="flex bg-dark-primary text-white p-4 rounded items-center mr-2 z-50">
-      <nav className="flex flex-row justify-center items-center font-lekton font-medium">
+    <header className="lg:flex bg-dark-primary dark:bg-white text-white p-4 rounded lg:items-center mb-4 lg:mr-2 z-50">
+      <nav className="lg:flex lg:flex-row lg:justify-center lg:items-center font-lekton font-medium">
         <ul>
-        <NavLink icon={faSun}/>
+        <Switcher />
         <NavLink icon={faHome} label="Home" to="/home" />
         <NavLink icon={faUser} label="About" to="/about" />
         <NavLink icon={faBriefcase} label="Projects" to="/projects" />
@@ -20,9 +22,9 @@ const Header = () => {
 
 const NavLink = ({ icon, label, to }) => {
   return (
-    <li>
-      <a href={to} className="flex flex-col hover:text-blue-400 hover:duration-200 hover:ease-in-out items-center py-2 my-6">
-        <FontAwesomeIcon icon={icon} className="mb-2" />
+    <li className='inline'>
+      <a href={to} className="mx-3 lg:flex lg:flex-col hover:text-blue-400 hover:duration-200 hover:ease-in-out lg:items-center lg:py-2 lg:my-6">
+        <FontAwesomeIcon icon={icon} className="mr-1 lg:mb-2" />
         <span className='text-xs uppercase'>{label}</span>
       </a>
     </li>

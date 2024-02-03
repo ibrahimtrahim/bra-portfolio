@@ -6,7 +6,7 @@ import AllRoutes from './routes/AllRoutes';
 
 function App() {
   return (
-    <div className="flex bg-black h-screen justify-center items-center">
+    <div className="lg:flex bg-black dark:bg-white-peimary h-screen lg:justify-center lg:items-center">
       <Header />
       <Hero />
       <AllRoutes />

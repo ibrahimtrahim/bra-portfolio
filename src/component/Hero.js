@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
 
   return (
-      <div class="w-full max-w-sm bg-dark-primary rounded-lg mr-2">
-          <div class="flex flex-col justify-center items-center py-40">
+      <div class="lg:w-full lg:max-w-sm bg-dark-primary dark:bg-white lg:rounded-lg mb-4 lg:mr-2">
+          <div class="flex flex-col justify-center items-center py-20 lg:py-40">
               <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="/assets/images/pic-2.png" alt="brahim trahim"/>
               <h1 class="mb-1 text-xl text-white font-lekton font-bold">Brahim Trahim</h1>
                 <span className="text-sm font-lekton text-blue-400">

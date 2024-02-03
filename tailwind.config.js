@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -9,6 +10,7 @@ module.exports = {
       },
       colors: {
         "dark-primary" : "#222222",
+        "white-peimary" : "#f6f6f6",
         "txt-clr": "rgba(255, 255, 255, 0.55)"
       },
       spacing: {
