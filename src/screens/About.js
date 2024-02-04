@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className='max-w-xl max-h-[560px] bg-white dark:bg-dark-primary lg:rounded-lg overflow-hidden py-10 px-10'>
+    <section className='lg:max-w-xl lg:max-h-[560px] bg-white dark:bg-dark-primary lg:rounded-lg overflow-hidden p-10'>
         <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
         <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
         Hello! 👋 I’m Brahim Trahim.

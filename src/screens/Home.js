@@ -5,7 +5,7 @@ const Home = (props) => {
   const {title, link, img } = props;
 
   return (
-    <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:w-[37rem] lg:max-h-[35rem] py-10 px-10'>
+    <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:max-w-xl lg:max-h-[560px] py-10 px-10'>
           <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
           <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
           Hello! 👋 I’m Brahim Trahim.

@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div>
-      <div class="bg-white dark:bg-dark-primary lg:rounded-lg lg:w-[37rem] lg:max-h-[35rem] py-10 px-10">
+      <div class="bg-white dark:bg-dark-primary lg:rounded-lg lg:w-[36rem] lg:h-[560px] py-10 px-10">
         <form action="#" class="space-y-8">
           <div>
             <label for="email" class="font-lekton font-semibold dark:text-txt-clr block mb-2 text-sm">Full Name</label>
