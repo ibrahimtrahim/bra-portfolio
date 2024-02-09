@@ -25,7 +25,7 @@ const NavLink = ({ icon, label, to }) => {
     <li className='inline'>
       <a href={to} className="mx-3 text-black dark:text-white lg:flex lg:flex-col hover:text-blue-400 dark:hover:text-blue-400 hover:duration-200 hover:ease-in-out lg:items-center lg:py-2 lg:my-6">
         <FontAwesomeIcon icon={icon} className="mr-1 lg:mb-2" />
-        <span className='text-xs uppercase'>{label}</span>
+        <span className='text-xs font-medium uppercase'>{label}</span>
       </a>
     </li>
   );

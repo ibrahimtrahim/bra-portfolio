@@ -16,7 +16,7 @@ const About = () => {
         <div>
           <div>
             <div>
-              <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Web Development</h3>
+              <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>Web Development</h3>
               <div className='flex mb-3'>
                 <span className='mr-4'>
                   <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 384 512">
@@ -56,7 +56,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>UI/UX Design</h3>
+              <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>UI/UX Design</h3>
               <div className='flex mb-3'>
                 <span className='mr-4'>
                   <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 384 512">
@@ -66,7 +66,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Tools & Platforms</h3>
+              <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>Tools & Platforms</h3>
               <div className='flex mb-3'>
                 <span className='mr-4'>
                   <svg xmlns="http://www.w3.org/2000/svg" fill='#60a5fa' height="40" width="30" viewBox="0 0 512 512">
