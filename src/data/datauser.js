@@ -1,74 +1,89 @@
 const INFO = {
     projects: [
 		{
-			title: "Project 1",
+			title: "Hair Studio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Responsive landing page crafted using HTML, CSS, and JS.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/barber-template",
 			img: "assets/images/project1.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
+			link: "https://ibrahimtrahim.github.io/barber-template/",
+			languages: [
+                { name: "HTML", logo: "assets/images/html.png" },
+                { name: "CSS", logo: "assets/images/css.png" },
+				{ name: "JavaScript", logo: "assets/images/javas.png" },
+            ]
 		},
 
 		{
-			title: "Project 2",
+			title: "Developer Portfolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Responsive Portfolio crafted using HTML, CSS, and JS.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/portfolio-template",
 			img: "assets/images/project2.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
+			link: "https://ibrahimtrahim.github.io/portfolio-template/",
+			languages: [
+                { name: "HTML", logo: "assets/images/html.png" },
+                { name: "CSS", logo: "assets/images/css.png" },
+				{ name: "JavaScript", logo: "assets/images/javas.png" },
+            ]
 		},
 
 		{
-			title: "Project 3",
+			title: "MovieHub",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Dynamic movie app crafted with React.js, Tailwind CSS, and API integration.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/movieapp",
 			img: "assets/images/project3.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
+			link: "https://ibrahimtrahim.github.io/movieapp/",
+			languages: [
+                { name: "REACT JS", logo: "assets/images/react.png" },
+                { name: "TAILWIND CSS", logo: "assets/images/tailwindcss.png" },
+            ]
 		},
 
 		{
-			title: "Project 4",
+			title: "Sunnyside",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Responsive landing page crafted using HTML, SCSS, and JS.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/sunnyside-agency-landing-page-main",
 			img: "assets/images/project4.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
+			link: "https://ibrahimtrahim.github.io/sunnyside-agency-landing-page-main/",
+			languages: [
+                { name: "HTML", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png" },
+                { name: "SCSS", logo: "assets/images/sass.png" },
+				{ name: "JavaScript", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
+            ]
 		},
 
 		{
-			title: "Project 5",
+			title: "Room",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Responsive landing page crafted using HTML, SCSS, and JS.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/homepage",
 			img: "assets/images/project1.jpg",
 			link: "https://github.com/ibrahimtrahim/my-portfolio",
+			languages: [
+                { name: "HTML", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png" },
+                { name: "SCSS", logo: "assets/images/sass.png" },
+				{ name: "JavaScript", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
+            ]
 		},
 
 		{
-			title: "Project 6",
+			title: "Room",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
+			linkText: "https://github.com/ibrahimtrahim/homepage",
 			img: "assets/images/project2.jpg",
 			link: "https://github.com/ibrahimtrahim/my-portfolio",
 		},
 
-		{
-			title: "Project 7",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			img: "assets/images/project3.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
-		},
 	]
 };
 

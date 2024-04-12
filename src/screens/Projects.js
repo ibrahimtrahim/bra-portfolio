@@ -13,6 +13,7 @@ const Projects = () => {
             linkText={project.linkText}
             link={project.link}
             img={project.img}
+            languages={project.languages}
           />
         </div>
       ))}
