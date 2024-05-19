@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 const Home = (props) => {
-  const { link, linkText } = props;
 
   return (
     <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:max-w-xl lg:max-h-[560px] py-10 px-10'>
@@ -11,8 +10,7 @@ const Home = (props) => {
           Hello! 👋 I’m Brahim Trahim.
           </p>
           <p className='font-normal text-base font-lekton dark:text-txt-clr mb-2'>
-            Frond-end developer from MA, AGADIR. I have rich experience in React js, 
-            also I am good at Wordpress. I love to talk with you about our unique.
+          a front-end developer from Agadir, Morocco. I love building dynamic and responsive web applications with React JS.
           </p>
         <div>
           <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-8 mt-8 circle-before'>My Work</h2>
@@ -23,8 +21,8 @@ const Home = (props) => {
                 alt="project1"
               />
               <div className='absolute -bottom-full left-4 group-hover:bottom-4 transition-all duration-500 z-50'>
-                <h5 class="mb-4 text-l text-sky-400 font-bold tracking-tight text-gray-900 dark:text-white">Hair Studio</h5>
-                <p class="mb-4 font-normal text-white dark:text-gray-400">Responsive landing page crafted using HTML, CSS, and JS.</p>
+                <h5 className="mb-4 text-l text-sky-400 font-bold tracking-tight text-gray-900 dark:text-white">Hair Studio</h5>
+                <p className="mb-4 font-normal text-white dark:text-gray-400">Responsive landing page crafted using HTML, CSS, and JS.</p>
                 <div className="flex items-center mb-4">
                     <div className="flex items-center mr-2">
                       <img src="assets/images/html.png" alt="HTML" className="h-6 mr-1" />
@@ -33,9 +31,9 @@ const Home = (props) => {
                     </div>
               </div>
               <div className='flex items-center'>
-                <Link to="https://ibrahimtrahim.github.io/barber-template/" target="_blank" class="inline-flex mr-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <Link to="https://ibrahimtrahim.github.io/barber-template/" target="_blank" className="inline-flex mr-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   LIVE DEMO
-                  <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                   </svg>
                 </Link>
@@ -47,8 +45,8 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div class="flex justify-center mt-4 md:mt-6">
-            <a href="/Projects" class="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">See More</a>
+          <div className="flex justify-center mt-4 md:mt-6">
+            <Link to="/Projects" className="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">See More</Link>
           </div>
         </div>
         <div>
@@ -57,8 +55,8 @@ const Home = (props) => {
           <p className='font-normal text-base font-lekton dark:text-txt-clr mb-4'>trahimbrahim@gmail.com</p>
           <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Phone:</h3>
           <p className='font-normal text-base font-lekton dark:text-txt-clr mb-4'>+212 610 760 225</p>
-          <div class="flex justify-center mt-4 md:mt-6">
-            <a href="/Contact" class="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">Contact Me</a>
+          <div className="flex justify-center mt-4 md:mt-6">
+            <Link to="/Contact" className="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">Contact Me</Link>
           </div>
         </div>
     </section>
