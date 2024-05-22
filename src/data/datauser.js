@@ -73,17 +73,6 @@ const INFO = {
 				{ name: "JavaScript", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
             ]
 		},
-
-		{
-			title: "Room",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "https://github.com/ibrahimtrahim/homepage",
-			img: "assets/images/project2.jpg",
-			link: "https://github.com/ibrahimtrahim/my-portfolio",
-		},
-
 	]
 };
 

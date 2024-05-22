@@ -7,7 +7,7 @@ const Hero = () => {
   return (
       <div class="lg:w-full lg:max-w-sm bg-white dark:bg-dark-primary lg:rounded-lg mb-4 lg:mr-2">
           <div class="flex flex-col justify-center items-center py-20 lg:py-40">
-            <span class='relative before:block before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-700'>
+            <span class='relative before:block before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
               <img class="relative w-24 h-24 lg:w-32 lg:h-32 mb-3 rounded-full shadow-lg" src="/assets/images/pic-1.png" alt="brahim trahim"/>
             </span>  
               <h1 class="mb-1 mt-4 text-xl lg:text-3xl text-dark-primary dark:text-white font-lekton font-bold">Brahim Trahim</h1>
