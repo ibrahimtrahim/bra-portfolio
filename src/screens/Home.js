@@ -5,7 +5,9 @@ const Home = (props) => {
 
   return (
     <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:max-w-xl lg:max-h-[560px] py-10 px-10'>
-          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+          <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
+            <h2 className='relative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+          </span>
           <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
           Hello! 👋 I’m Brahim Trahim.
           </p>
@@ -13,7 +15,9 @@ const Home = (props) => {
           a front-end developer from Agadir, Morocco. I love building dynamic and responsive web applications with React JS.
           </p>
         <div>
-          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-8 mt-8 circle-before'>My Work</h2>
+        <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
+          <h2 className='relative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-8 mt-8 circle-before'>My Work</h2>
+        </span>
           <div className="group m-auto relative overflow-hidden border-2 border-black/50 dark:border-white/50 text-gray-700 bg-white m-2 rounded-xl w-60 h-60">
             <div className='group-hover bg-black/70 z-40 w-full h-full absolute transition-all duration-300'></div>
               <img className='group-hover:scale-125 transition-all duration-500 cursor-pointer' 
@@ -50,7 +54,9 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 circle-before'>Contact Me</h2>
+          <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
+            <h2 className='relative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 circle-before'>Contact Me</h2>
+          </span>
           <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Email:</h3>
           <p className='font-normal text-base font-lekton dark:text-txt-clr mb-4'>trahimbrahim@gmail.com</p>
           <h3 className='font-lekton font-semibold dark:text-txt-clr mb-2'>Phone:</h3>

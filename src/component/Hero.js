@@ -1,13 +1,16 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
   return (
       <div class="lg:w-full lg:max-w-sm bg-white dark:bg-dark-primary lg:rounded-lg mb-4 lg:mr-2">
           <div class="flex flex-col justify-center items-center py-20 lg:py-40">
-              <img class="w-24 h-24 lg:w-32 lg:h-32 mb-3 rounded-full shadow-lg" src="/assets/images/pic-1.png" alt="brahim trahim"/>
-              <h1 class="mb-1 text-xl lg:text-3xl text-dark-primary dark:text-white font-lekton font-bold">Brahim Trahim</h1>
+            <span class='relative before:block before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-700'>
+              <img class="relative w-24 h-24 lg:w-32 lg:h-32 mb-3 rounded-full shadow-lg" src="/assets/images/pic-1.png" alt="brahim trahim"/>
+            </span>  
+              <h1 class="mb-1 mt-4 text-xl lg:text-3xl text-dark-primary dark:text-white font-lekton font-bold">Brahim Trahim</h1>
                 <span className="text-sm font-lekton text-blue-700">
                 <Typewriter
                     options={{
@@ -40,7 +43,7 @@ const Hero = () => {
                 </a>
               </div>
               <div class="flex mt-4 md:mt-6">
-                  <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-lekton font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">CONTACT ME</a>
+                <Link to="/Contact" className="font-lekton border-2 border-solid border-blue-600 rounded py-2 px-8 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white mt-4 transition-color duration-300">Contact Me</Link>
               </div>
           </div>
       </div>

@@ -4,14 +4,18 @@ import React from 'react';
 const About = () => {
   return (
     <section className='lg:scrollbar-w-1.5 lg:scrollbar-h-1.5 lg:scrollbar-track-bg-slate-500/50  dark:lg:scrollbar-track-bg-transparent dark:lg:scrollbar-thumb-bg-transparent lg:scrollbar-rounded bg-white dark:bg-dark-primary lg:rounded-lg lg:overflow-y-auto lg:max-w-xl lg:max-h-[560px] py-10 px-10'>
-        <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+        <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
+        <h2 className='relative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4'>About Me</h2>
+        </span>
         <p className='font-semibold text-base font-lekton dark:text-txt-clr mb-2'>
         Hello! 👋 I’m Brahim Trahim.
         </p>
         <p className='font-normal text-base font-lekton dark:text-txt-clr mb-2'>
         a passionate front-end developer from Agadir, Morocco. I specialize in creating dynamic and responsive web applications using React JS. I love learning new things and exploring new technologies, which helps me keep improving my skills and delivering the best solutions.
         </p>
-        <h2 className='font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 relative'>My Skills</h2>
+        <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
+        <h2 className='realative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 relative'>My Skills</h2>
+        </span>
         <div>
           <div>
             <div>
