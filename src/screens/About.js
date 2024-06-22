@@ -11,7 +11,7 @@ const About = () => {
         Hello! 👋 I’m Brahim Trahim.
         </p>
         <p className='font-normal text-base font-lekton dark:text-txt-clr mb-2'>
-        a passionate front-end developer from Agadir, Morocco. I specialize in creating dynamic and responsive web applications using React JS. I love learning new things and exploring new technologies, which helps me keep improving my skills and delivering the best solutions.
+        A dedicated front-end developer from Agadir, Morocco, with a strong passion for creating dynamic and responsive web applications. My expertise lies in React JS, where I strive to deliver user-friendly and efficient solutions. I’m always eager to learn and explore new technologies, which helps me keep my skills sharp and my projects innovative. I believe in continuous improvement and aim to bring the best to every project I work on.
         </p>
         <span class='relative before:block before:w-8 before:rounded-full before:absolute before:-inset-0.5 before:bg-blue-400'>
         <h2 className='realative font-semibold text-xl font-lekton text-dark-primary dark:text-white mb-4 mt-8 relative'>My Skills</h2>
@@ -20,7 +20,7 @@ const About = () => {
           <div>
             <div>
               <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>Web Development</h3>
-              <div className='flex mb-3'>
+              <div className='flex mb-6'>
                 <span className='mr-4'>
                   <img src="assets/images/html.png" alt="html" />
                 </span>
@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div>
               <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>UI/UX Design</h3>
-              <div className='flex mb-3'>
+              <div className='flex mb-6'>
                 <span className='mr-4'>
                   <img src="assets/images/figma.png" alt="figma" />
                 </span>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <div>
               <h3 className='font-lekton text-base font-semibold dark:text-txt-clr mb-2'>Tools & Platforms</h3>
-              <div className='flex mb-3'>
+              <div className='flex mb-6'>
                 <span className='mr-4'>
                   <img src="assets/images/git.png" alt="git" />
                 </span>

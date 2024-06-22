@@ -9,11 +9,11 @@ const ProjectCard = (props) => {
     <div className="group relative overflow-hidden border-2 border-black/50 dark:border-white/50 text-gray-700 bg-white m-2 rounded-xl w-60 h-60">
       <div className='group-hover bg-black/70 z-40 w-full h-full absolute transition-all duration-300'></div>
         <img className='group-hover:scale-125 transition-all duration-500 cursor-pointer' 
-          src='assets/images/project1.jpg' 
-          alt="project1"
+          src={img}
+          alt={title}
         />
         <div className='absolute -bottom-full left-4 group-hover:bottom-4 transition-all duration-500 z-50'>
-          <h5 class="mb-4 text-l text-sky-400 font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+          <h5 class="mb-4 text-l text-sky-400 font-bold tracking-tight dark:text-white">{title}</h5>
           <p class="mb-4 font-normal text-white dark:text-gray-400">{description}</p>
           <div className="flex items-center mb-4">
             {languages && languages.map((language, index) => (
