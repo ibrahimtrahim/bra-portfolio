@@ -45,17 +45,16 @@ const INFO = {
 		},
 
 		{
-			title: "Sunnyside",
+			title: "Idokan",
 			description:
-				"Responsive landing page crafted using HTML, SCSS, and JS.",
+				"Responsive landing page crafted using REACT.JS and Tailwind CSS.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "https://github.com/ibrahimtrahim/sunnyside-agency-landing-page-main",
+			linkText: "https://github.com/ibrahimtrahim/idokan",
 			img: "assets/images/project5.png",
-			link: "https://ibrahimtrahim.github.io/sunnyside-agency-landing-page-main/",
+			link: "https://idokan.vercel.app/",
 			languages: [
-                { name: "HTML", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png" },
-                { name: "SCSS", logo: "assets/images/sass.png" },
-				{ name: "JavaScript", logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
+                { name: "REACT JS", logo: "assets/images/react.png" },
+                { name: "TAILWIND CSS", logo: "assets/images/tailwindcss.png" },
             ]
 		},
 
